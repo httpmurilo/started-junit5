@@ -9,7 +9,7 @@ public class ClinicCalendar {
 
    private List<PatientAppointment> appointments;
 
-   public ClinicCalendar() {
+   public ClinicCalendar(LocalDate of) {
       this.appointments = new ArrayList<>();
    }
 
